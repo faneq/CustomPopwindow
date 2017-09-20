@@ -1,6 +1,6 @@
 ##通用Popwindow
 平时使用Popwindow的频率还是蛮高的，为了避免每次使用都单独创建浪费时间，浪费精力所以封装了一个通用的Popwindow
-使用效果图
+使用效果图\n
 ![mahua](http://img.blog.csdn.net/20170920152747135?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvZmFuZW5xaWFu/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/Center)
 
 使用方法：
@@ -8,8 +8,8 @@
  CustomPopupWindow customPopupWindow = new CustomPopupWindow.Builder()
                         .with(MainActivity.this)
                         .setContentView(R.layout.pop_view)
-//                        .setwidth(100)
-//                        .setheight(100)
+                        .setwidth(100)
+                        .setheight(100)
                         .setBackGroudAlpha(MainActivity.this, 0.7f)
                         .setAnimationStyle(CustomPopupWindow.Builder.STYLE2)
                         .setFouse(true)
@@ -20,7 +20,7 @@
 ##MaHua有哪些功能？
 
 | 方法名 | 功能 |  
- | - | :-: | -: | 
+ | - |  -: | 
  | Builder().with(Context context)  | 初始化Builder对象 | 
  | setContentView(int contentviewid) |设置Popwindow 布局| 
  | setwidth(int width) | 设置宽度|
