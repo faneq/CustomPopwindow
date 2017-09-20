@@ -3,7 +3,7 @@
 使用效果图</br>
 ![mahua](http://img.blog.csdn.net/20170920152747135?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvZmFuZW5xaWFu/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/Center)
 
-使用方法：
+## 使用方法：
 ``` java
  CustomPopupWindow customPopupWindow = new CustomPopupWindow.Builder()
                         .with(MainActivity.this)
