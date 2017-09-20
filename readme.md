@@ -1,6 +1,6 @@
 ##通用Popwindow
 平时使用Popwindow的频率还是蛮高的，为了避免每次使用都单独创建浪费时间，浪费精力所以封装了一个通用的Popwindow
-使用效果图\n
+使用效果图</br>
 ![mahua](http://img.blog.csdn.net/20170920152747135?watermark/2/text/aHR0cDovL2Jsb2cuY3Nkbi5uZXQvZmFuZW5xaWFu/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70/gravity/Center)
 
 使用方法：
@@ -17,7 +17,6 @@
                         .builder().showAsLaction(view, Gravity.CENTER, 0, 0);
 ```
 
-##MaHua有哪些功能？
 
 | 方法名 | 功能 |  
  | - |  -: | 
